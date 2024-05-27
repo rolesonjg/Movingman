@@ -9,9 +9,10 @@
   .step {
     width: 170px; 
     height: 40px;
-    background-color: #ccc;
+    background-color: #CDE8E5;
     margin-right: 20px; 
     position: relative;
+    border-radius: 5px;
   }
   
   .step-1 {
@@ -43,7 +44,7 @@
   }
   
   .character::before {
-    content: 'X';
+   
     position: absolute;
     top: 50%;
     left: 50%;
@@ -52,5 +53,5 @@
   }
   
   .passed {
-    background-color: green;
+    background-color: #27c556;
   }
